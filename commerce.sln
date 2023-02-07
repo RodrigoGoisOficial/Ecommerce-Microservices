@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{7A7FFB96-E72E-4338-98F3-87C4779B76C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalago", "Catalago", "{F9E9FA70-70D0-4E43-9171-38828744F229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalago.API", "Servicos\Catalago\Catalago.API\Catalago.API.csproj", "{CEEC3564-C09E-4E09-88D0-CD8A35FF05B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEEC3564-C09E-4E09-88D0-CD8A35FF05B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEEC3564-C09E-4E09-88D0-CD8A35FF05B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEEC3564-C09E-4E09-88D0-CD8A35FF05B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEEC3564-C09E-4E09-88D0-CD8A35FF05B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9E9FA70-70D0-4E43-9171-38828744F229} = {7A7FFB96-E72E-4338-98F3-87C4779B76C6}
+		{CEEC3564-C09E-4E09-88D0-CD8A35FF05B4} = {F9E9FA70-70D0-4E43-9171-38828744F229}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {520BE1E0-81BC-45BE-A2FF-8122899C1AA3}
+	EndGlobalSection
+EndGlobal
